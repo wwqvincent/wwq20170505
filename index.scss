@@ -1,0 +1,172 @@
+@charset"utf-8";
+*{margin:0;padding:0}
+a{text-decoration:none}
+li{list-style:none}
+img{border:none}
+html, body, ul, li, ol, dl, dd, dt, p, h1, h2, h3, h4, h5, h6, form, fieldset, legend, img { margin:0; padding:0; }
+fieldset, img { border:none; }
+img{display: block;}
+address, caption, cite, code, dfn, th, var { font-style:normal; font-weight:normal; }
+ul, ol{ list-style:none; }
+body {font:12px "Microsoft Yahei";}
+a {text-decoration:none; }
+a:hover, a:active, a:focus { color:#ff8400; text-decoration:underline; } 
+.left{float:left}
+.right{float:right}
+.clear:after{content:"";display:block;clear:both;height:0;overflow:hidden}
+/*-------------------------------------------------------------------------header top*/
+#headertop{
+    height: 28px;
+    width: 100%;
+    background:#f2f2f2;
+}
+#headertop li{float: left;}
+#headertop .left{margin-left: 87px;height:100%;}
+#headertop .left #headertopleft{height:100%;color: #6c6c6c;}
+#headertop .left #headertopleft li{padding-right:25px;line-height: 28px;}
+#headertop .left #headertopleft li a{color: #6c6c6c;}
+
+#headertop #headertopright{line-height: 28px;color: #999999;}
+#headertop #headertopright .li1{margin-right: 14px;}
+#headertop #headertopright .li2{margin-left: 10px;margin-right:32px;position: relative;}
+#headertop #headertopright .li2 div{background: url(../img/header_newicon1.png);
+width: 6px;height: 3px;position: absolute;top: 13px;right: -10px;}
+#headertop #headertopright .li3{margin-left: 12px;margin-right: 14px;color:#ed145b;}
+#headertop #headertopright .li4{margin-left: 30px;margin-right: 92px;position: relative;}
+#headertop #headertopright .li4 div{background: url(../img/header_newicon1.png);
+width: 6px;height: 3px;position: absolute;top: 13px;right: -10px;}
+#headertop #headertopright .lil{color: #dddddd;}
+/*-------------------------------------------------------------------------header logo*/
+#headerlogo{height:78px;
+            width:1200px;
+            
+            margin:0 auto;
+            }
+#headerlogo .logokaung ul .li1{
+                             width:232px;
+                             height:78px;
+                             float:left;}
+
+#headerlogo .logokaung ul .li1{
+                                 display:block;
+                                 position:relative;}
+#headerlogo .logokaung ul .li1 a{
+                                 display:block;width:232px;height:78px;
+                                 background:url(../img/logo.jpg) no-repeat left -1px;
+                                  position:absolute;
+                                  top:6px;bottom:6px;
+                                  text-indent:-100%;
+                                  overflow:hidden;}
+#headerlogo .logokaung ul .li2 {
+                                width:536px;
+                                height:76px;
+                                vertical-align:middle;
+                                line-height:31px;
+                                float:left;
+                                margin-left:50px;
+                                margin-right:188px;
+                                }
+#headerlogo .logokaung ul .li2 .li2-text{padding-top: 15px;}
+#headerlogo .logokaung ul .li2 .li2-text input{
+                                              width:430px;
+                                              height:26px;
+                                              
+                                              border:3px solid #ed145b;
+                                              border-right:none;
+                                              float:left;
+                                              margin-top:13px;} 
+#headerlogo .logokaung ul .li2 .li2-submit input{height:32px;
+                                                width:90px;
+                                                float:left;
+                                                margin-top:13px;
+                                                background:  #ed145b;
+                                                border: 0px;}
+                                                
+
+#headerlogo .logokaung ul .li2 .li2-wenzi{
+                                          font-size:12px;
+                                          
+                                          color:#cccccc;}
+#headerlogo .logokaung ul .li2 .li2-wenzi li{float: left;width:50px;height: 18px;margin-top: 9px;line-height: 18px;text-align: center;border-right: 1px solid #CCCCCC;}
+#headerlogo .logokaung ul .li2 .li2-wenzi .li1{border: 0px;}
+#headerlogo .logokaung ul .li3{
+                               float:left;
+                               width:124px;
+                               height:32px;
+                               position: relative;
+                               margin-top:29px ;}
+#headerlogo .logokaung ul .li3 input{width:124px;
+                                     height:32px;
+                                     border-color:#d7d7d7;
+                                     float:right;
+                                     //margin-top:32px;
+                                     background:#f8f8f8;
+                                     text-align:right;
+                                     z-index: 1;
+                                     position: absolute;}
+#headerlogo .logokaung ul .li3 a{
+                                 display:block;
+                                 height:28px;
+                                  width:110px;
+                                 text-align:right;
+                                 position:absolute;z-index:2;
+                                 font-size:12px;
+                                 line-height: 32px;
+                                 color: #666666;}
+#headerlogo .logokaung ul .li3 a div{background: url(../img/header_newicon1.png);
+width: 6px;height: 3px;position: absolute;top: 15px;right: -8px;}
+#headerlogo .logokaung ul .li3 em{
+                                 display:block;
+                                 width:124px;
+                                 height:30px;
+                                 background:url(../img/cart.gif) no-repeat 3px 4px;
+                                 position:absolute;z-index:100;
+                                 }
+#headerlogo .logokaung ul .li3 .div1{position: absolute;
+                                    border:2px solid #d7d7d7;
+                                    top:32px;left:-179px;
+                                    width: 300px;height: 82px;
+                                    z-index: 0;
+                                    display: none;
+                                    background-color: #FFFDEF;}
+#headerlogo .logokaung ul .li3 .div1 p{text-align: center;font-size: 12px;color: #9a9a9a;}  
+#headerlogo .logokaung ul .li3 .div1 .p1{margin-top: 22px;}                           
+#headerlogo .logokaung ul .li3:hover .btn1{
+                                 height: 34px;
+                                 border-bottom: 0px;
+                                 z-index:2
+                                  }
+#headerlogo .logokaung ul .li3:hover .div1{
+                                  display: block;
+                                  }                           
+/*-------------------------------------------------------------------------cebianlan*/                                
+#cebianlan{position: fixed;width: 40px;height: 100%;background-color: #444851;top: 0px;right: 0px;z-index: 9990;}                                 
+                                  
+/*-------------------------------------------------------------------------navgat*/
+
+#navgat{margin-top:30px;
+        width:100%;
+        height: 38px;
+        background-color: #1f1f1f;
+        }
+#navgat #navLeft .ul1{float: left;}
+#navgat #navLeft .ul1 li{float: left;height: 38px;line-height: 38px;text-align:center;font-size: 14px;width: 108px;color: #FFFFFF;}
+#navgat #navLeft .ul1 .li1{margin-left: 80px;background-color: #ed145b;}
+#navgat #navLeft .ul1 li:hover{color: #CCCCCC;}
+#navgat #navLeft .ul2{margin-right:110px ;float: right;}
+#navgat #navLeft .ul2 li{float: right;padding-top:7px ;padding-left:15px }
+#navgat #navLeft .ul2 .li1{;}
+
+/*-------------------------------------------------------------------------banner*/
+#banner img{font-size: 0px;width: 100%;display: block;}
+
+
+/*-------------------------------------------------------------------------main*/
+
+
+
+
+
+
+
+
