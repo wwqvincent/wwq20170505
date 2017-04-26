@@ -153,13 +153,75 @@ width: 6px;height: 3px;position: absolute;top: 15px;right: -8px;}
 #navgat #navLeft .ul1{float: left;}
 #navgat #navLeft .ul1 li{float: left;height: 38px;line-height: 38px;text-align:center;font-size: 14px;width: 108px;color: #FFFFFF;}
 #navgat #navLeft .ul1 .li1{margin-left: 80px;background-color: #ed145b;}
+#navgat #navLeft .ul1 .li2{position: relative;}
+#navgat #navLeft .ul1 .li2 .sanjiao{background: url(../img/header_newicon1.png);width: 6px;height: 3px;position: absolute;top: 18px;right: 11px;}
+#navgat #navLeft .ul1 .li2 .div1{position: absolute;
+                                  top: 38px;left:-324px;
+                                  width: 1143px;
+                                  height: 308px;
+                                  background: #795DA3;}
 #navgat #navLeft .ul1 li:hover{color: #CCCCCC;}
 #navgat #navLeft .ul2{margin-right:110px ;float: right;}
 #navgat #navLeft .ul2 li{float: right;padding-top:7px ;padding-left:15px }
-#navgat #navLeft .ul2 .li1{;}
 
 /*-------------------------------------------------------------------------banner*/
-#banner img{font-size: 0px;width: 100%;display: block;}
+#wrap{
+        width:1280px;
+        height: 400px;
+        overflow: hidden;
+        margin: 0 auto;
+        position: relative;
+    }
+    ul#slide{
+        position: absolute;
+        left: 0;
+        top: 0;
+        width: 9999px;
+    }
+    #slide li{
+        float: left;
+        width: 1280px;
+        height: 400px;
+    }
+    #prev,#next{
+        width:70px;
+        height: 50px;
+        line-height: 50px;
+        color: #fff;
+        font-size: 40px;
+        background: rgba(0,0,0,0.3);
+        position: absolute;
+        top: 120px;
+        text-align: center;
+        text-decoration: none;
+        display: none;
+    }
+    #wrap:hover #prev,#wrap:hover #next{
+        display: block;
+    }
+    }
+    #list{
+        position: absolute;
+        bottom: 10px;
+        right:50px;
+    }
+    #list li{
+        width: 40px;
+        height: 4px;
+        background:rgba(0,0,0,.3);
+        border-radius: 2px;
+        float:left;
+        margin-left: 10px;
+        cursor: pointer;
+    }
+    #list li.active{
+        background-color:rgba(255,255,255,.8);
+    }
+    #slide li img{
+
+        width:1280px;
+        height:400px;
+    }
 
 
 /*-------------------------------------------------------------------------main*/
