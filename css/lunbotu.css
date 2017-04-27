@@ -1,0 +1,63 @@
+#banner{width:100%;margin: 0 auto;}
+#wrap{
+        width:1260px;
+        height: 350px;
+        overflow: hidden;
+        margin: 0 auto;
+        position: relative;
+    }
+    ul#slide{
+        position: absolute;
+        left: 0;
+        top: 0;
+        width: 9999px;
+    }
+    #slide li{
+        float: left;
+        width: 1260px;
+        height: 350px;
+    }
+    #prev,#next{
+        width:40px;
+        height: 40px;
+        line-height: 40px;
+        color: #fff;
+        font-size: 40px;
+        background: rgba(0,0,0,0.3);
+        position: absolute;
+        top: 120px;
+        text-align: center;
+        text-decoration: none;
+        display: none;
+    }
+    #wrap:hover #prev,#wrap:hover #next{
+        display: block;
+    }
+    #prev{
+        left: 0;
+    }
+    #next{
+        right: 56px;
+    }
+    #list{
+        position: absolute;
+        bottom: 10px;
+        right:50px;
+    }
+    #list li{
+        width: 40px;
+        height: 4px;
+        background:rgba(0,0,0,.3);
+        border-radius: 2px;
+        float:left;
+        margin-left: 10px;
+        cursor: pointer;
+    }
+    #list li.active{
+        background-color:rgba(255,255,255,.8);
+    }
+    #slide li img{
+
+        width:1260px;
+        height:350px;
+    }

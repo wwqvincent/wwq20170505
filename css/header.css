@@ -1,20 +1,4 @@
-*{margin:0;padding:0}/*去掉所有边距*/
-body{font-family:"宋体"}/*字体格式*/
-a{text-decoration:none}/*去掉链接的下划线*/
-li{list-style:none}/*去掉序列的原点*/
-img{border:none}/*将图片放在超链接a里面，在IE浏览器里面图片会有默认的边框*/
-/*重置样式*/
-html, body, ul, li, ol, dl, dd, dt, p, h1, h2, h3, h4, h5, h6, form, fieldset, legend, img { margin:0; padding:0; }
-fieldset, img { border:none; }
-img{display: block;}
-address, caption, cite, code, dfn, th, var { font-style:normal; font-weight:normal; }
-ul, ol{ list-style:none; }
-body {font:12px "Microsoft Yahei";}
-a {text-decoration:none; }
-a:hover, a:active, a:focus { color:#ff8400; text-decoration:underline; } 
-.left{float:left}
-.right{float:right}
-.clear:after{content:"";display:block;clear:both;height:0;overflow:hidden}
+
 /*-------------------------------------------------------------------------header top*/
 #headertop{
 	height: 28px;
@@ -25,21 +9,32 @@ a:hover, a:active, a:focus { color:#ff8400; text-decoration:underline; }
 #headertop .left{margin-left: 87px;height:100%;}
 #headertop .left #headertopleft{height:100%;color: #6c6c6c;}
 #headertop .left #headertopleft li{padding-right:25px;line-height: 28px;}
-#headertop .left #headertopleft li a{color: #6c6c6c;}
-
 #headertop #headertopright{line-height: 28px;color: #999999;}
 #headertop #headertopright .li1{margin-right: 14px;}
 #headertop #headertopright .li2{margin-left: 10px;margin-right:32px;position: relative;}
 #headertop #headertopright .li2 div{background: url(../img/header_newicon1.png);
-width: 6px;height: 3px;position: absolute;top: 13px;right: -10px;}
+                                     width: 6px;height: 3px;position: absolute;
+                                     top: 13px;right: -10px;transition:all .5s linear;}
 #headertop #headertopright .li3{margin-left: 12px;margin-right: 14px;color:#ed145b;}
 #headertop #headertopright .li4{margin-left: 30px;margin-right: 92px;position: relative;}
+#headertop #headertopright .li4 p{width: 60px;position: relative;text-align: center;z-index: 102;}
 #headertop #headertopright .li4 div{background: url(../img/header_newicon1.png);
-width: 6px;height: 3px;position: absolute;top: 13px;right: -10px;}
+                                    width: 6px;height: 3px;position: absolute;top: 13px;
+                                    right: 6px;transition:all .5s linear;}
+#headertop #headertopright .li4 ul{width:110px;height: 210px;position: absolute;top:27px;left:-50px;background-color: #FFFFFF;z-index: 101;border:1px solid #DDDDDD;display: none;}
+#headertop #headertopright .li4 ul li{width: 100%;margin-left:16px ;position: relative;}
+#headertop #headertopright .li4 ul li img{display: block;position: absolute;width: 112px;height: 112px;top:-78px;left:-128px;display: none;}
+#headertop #headertopright .li4 ul li:hover img{display: block;}
+#headertop #headertopright .li4:hover p{background: #FFFFFF;}
+#headertop #headertopright .li4:hover ul{display: block;}
 #headertop #headertopright .lil{color: #dddddd;}
+#headertop #headertopright .li2:hover div{transform:rotate(-180deg)}
+#headertop #headertopright .li4:hover div{transform:rotate(-180deg)}
+#headertop a{color:#6c6c6c}
+#headertop a:hover{color:#ed145b;text-decoration: none;}
 /*-------------------------------------------------------------------------header logo*/
 #headerlogo{height:78px;
-            width:1200px;
+            width:1140px;
 			
 			margin:0 auto;
 			}
@@ -51,7 +46,7 @@ width: 6px;height: 3px;position: absolute;top: 13px;right: -10px;}
 #headerlogo .logokaung ul .li1{
 	                             display:block;
                                  position:relative;}
-#headerlogo .logokaung ul .li1 a{
+#headerlogo .logokaung ul>.li1>.a1{
 								 display:block;width:232px;height:78px;
                                  background:url(../img/logo.jpg) no-repeat left -1px;
 						          position:absolute;
@@ -65,7 +60,7 @@ width: 6px;height: 3px;position: absolute;top: 13px;right: -10px;}
 								line-height:31px;
 								float:left;
 								margin-left:50px;
-								margin-right:188px;
+								margin-right:150px;
 								}
 #headerlogo .logokaung ul .li2 .li2-text{padding-top: 15px;}
 #headerlogo .logokaung ul .li2 .li2-text input{
@@ -115,7 +110,8 @@ width: 6px;height: 3px;position: absolute;top: 13px;right: -10px;}
 								 line-height: 32px;
 								 color: #666666;}
 #headerlogo .logokaung ul .li3 a div{background: url(../img/header_newicon1.png);
-width: 6px;height: 3px;position: absolute;top: 15px;right: -8px;}
+width: 6px;height: 3px;position: absolute;top: 15px;right: -8px;transition:all .5s linear}
+#headerlogo .logokaung ul .li3:hover a div{transform:rotate(-180deg)}
 #headerlogo .logokaung ul .li3 em{
 	                             display:block;
 								 width:124px;
@@ -140,96 +136,9 @@ width: 6px;height: 3px;position: absolute;top: 15px;right: -8px;}
 #headerlogo .logokaung ul .li3:hover .div1{
 	                              display: block;
 								  }							  
-/*-------------------------------------------------------------------------cebianlan*/								  
-#cebianlan{position: fixed;width: 40px;height: 100%;background-color: #444851;top: 0px;right: 0px;z-index: 9990;}								  
-								  
-/*-------------------------------------------------------------------------navgat*/
-
-#navgat{margin-top:30px;
-        width:100%;
-        height: 38px;
-        background-color: #1f1f1f;
-        }
-#navgat #navLeft .ul1{float: left;}
-#navgat #navLeft .ul1 li{float: left;height: 38px;line-height: 38px;text-align:center;font-size: 14px;width: 108px;color: #FFFFFF;}
-#navgat #navLeft .ul1 .li1{margin-left: 80px;background-color: #ed145b;}
-#navgat #navLeft .ul1 .li2{position: relative;}
-#navgat #navLeft .ul1 .li2 .sanjiao{background: url(../img/header_newicon1.png);width: 6px;height: 3px;position: absolute;top: 18px;right: 11px;}
-#navgat #navLeft .ul1 .li2 .div1{position: absolute;
-                                  top: 38px;left:-324px;
-                                  width: 1143px;
-                                  height: 308px;
-                                  background: #795DA3;}
-#navgat #navLeft .ul1 li:hover{color: #CCCCCC;}
-#navgat #navLeft .ul2{margin-right:110px ;float: right;}
-#navgat #navLeft .ul2 li{float: right;padding-top:7px ;padding-left:15px }
-
-/*-------------------------------------------------------------------------banner*/
-#wrap{
-        width:1280px;
-        height: 400px;
-        overflow: hidden;
-        margin: 0 auto;
-        position: relative;
-    }
-    ul#slide{
-        position: absolute;
-        left: 0;
-        top: 0;
-        width: 9999px;
-    }
-    #slide li{
-        float: left;
-        width: 1280px;
-        height: 400px;
-    }
-    #prev,#next{
-        width:70px;
-        height: 50px;
-        line-height: 50px;
-        color: #fff;
-        font-size: 40px;
-        background: rgba(0,0,0,0.3);
-        position: absolute;
-        top: 120px;
-        text-align: center;
-        text-decoration: none;
-        display: none;
-    }
-    #wrap:hover #prev,#wrap:hover #next{
-        display: block;
-    }
-    }
-    #list{
-        position: absolute;
-        bottom: 10px;
-        right:50px;
-    }
-    #list li{
-        width: 40px;
-        height: 4px;
-        background:rgba(0,0,0,.3);
-        border-radius: 2px;
-        float:left;
-        margin-left: 10px;
-        cursor: pointer;
-    }
-    #list li.active{
-        background-color:rgba(255,255,255,.8);
-    }
-    #slide li img{
-
-        width:1280px;
-        height:400px;
-    }
 
 
-/*-------------------------------------------------------------------------main*/
-
-
-
-
-
-
+#headerlogo a{color:#6c6c6c}
+#headerlogo a:hover{color: #ed145b;text-decoration: none;}
 
 

@@ -1,0 +1,18 @@
+*{margin:0;padding:0}/*去掉所有边距*/
+body{font-family:"宋体"}/*字体格式*/
+a{text-decoration:none}/*去掉链接的下划线*/
+li{list-style:none}/*去掉序列的原点*/
+img{border:none}/*将图片放在超链接a里面，在IE浏览器里面图片会有默认的边框*/
+/*重置样式*/
+html, body, ul, li, ol, dl, dd, dt, p, h1, h2, h3, h4, h5, h6, form, fieldset, legend, img { margin:0; padding:0; }
+fieldset, img { border:none; }
+img{display: block;}
+address, caption, cite, code, dfn, th, var { font-style:normal; font-weight:normal; }
+ul, ol{ list-style:none; }
+body {font:12px "Microsoft Yahei";}
+a {text-decoration:none; }
+a:hover, a:active, a:focus { color:#ff8400; text-decoration:underline; } 
+.left{float:left}
+.right{float:right}
+.clear:after{content:"";display:block;clear:both;height:0;overflow:hidden}
+#kaung{background-color: #f7f7f7;}
