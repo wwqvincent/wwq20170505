@@ -1,0 +1,76 @@
+/*------------------------------------------------------------footer*/
+.footer {
+  width: 100%;
+  background: #f7f7f7; }
+  .footer .footera {
+    background: #57214c;
+    height: 225px; }
+    .footer .footera .div1 {
+      margin: 0 auto;
+      width: 1090px;
+      min-width: 1090px;
+      margin: 0 auto;
+      zoom: 1; }
+      .footer .footera .div1 div {
+        height: 83px;
+        display: inline;
+        float: left;
+        border-right: 1px solid #672a5b;
+        color: #fff;
+        margin: 33px 0 28px;
+        width: 220px;
+        padding: 4px 0 0 20px; }
+        .footer .footera .div1 div h2 {
+          float: left;
+          display: inline;
+          color: #fcfcfd;
+          font-size: 14px;
+          height: 25px;
+          line-height: 25px;
+          font-weight: 700; }
+        .footer .footera .div1 div ul {
+          width: 90px;
+          float: left;
+          display: inline;
+          overflow: hidden;
+          padding-left: 26px; }
+          .footer .footera .div1 div ul li {
+            float: left;
+            display: inline;
+            height: 25px;
+            line-height: 25px;
+            width: 100px; }
+            .footer .footera .div1 div ul li a {
+              color: #fff;
+              line-height: 25px; }
+        .footer .footera .div1 div .ul1 {
+          width: 220px;
+          float: left;
+          font-size: 14px; }
+          .footer .footera .div1 div .ul1 li {
+            width: 220px;
+            height: 30px;
+            font-size: 16px; }
+            .footer .footera .div1 div .ul1 li span {
+              background: url(http://a3.global.jmstatic.com/5bbea61888585858/footer_icon.png) no-repeat; }
+            .footer .footera .div1 div .ul1 li .spa1 {
+              background-position: 0 0;
+              width: 25px;
+              height: 20px;
+              display: inline-block;
+              vertical-align: middle;
+              margin-right: 10px; }
+            .footer .footera .div1 div .ul1 li .spa2 {
+              background-position: 0 -20px;
+              width: 25px;
+              height: 20px;
+              display: inline-block;
+              vertical-align: middle;
+              margin-right: 6px;
+              margin-left: 3px; }
+    .footer .footera p {
+      text-align: center;
+      color: #fff;
+      padding-top: 40px; }
+
+/*# sourceMappingURL=erjiyemianfooter.css.map */

@@ -1,0 +1,93 @@
+/*------------------------------------------------------------footer*/
+.footer{
+    width: 100%;
+    background: #f7f7f7;
+    .footera{
+        background: #57214c;
+        height: 225px;
+        .div1{
+            margin: 0 auto;
+           
+            width: 1090px;
+            min-width: 1090px;
+            margin: 0 auto;
+            zoom: 1;
+            div{
+                
+                height: 83px;
+                display: inline;
+                float: left;
+                border-right: 1px solid #672a5b;
+                color: #fff;
+                margin: 33px 0 28px;
+                width: 220px;
+                padding: 4px 0 0 20px;
+                h2{
+                    float: left;
+                    display: inline;
+                    color: #fcfcfd;
+                    font-size: 14px;
+                    height: 25px;
+                    line-height: 25px;
+                    font-weight: 700; 
+                }
+                ul{
+                    width: 90px;
+                    float: left;
+                    display: inline;
+                    overflow: hidden;
+                    padding-left: 26px;
+                    li{
+                        float: left;
+                        display: inline;
+                        height: 25px;
+                        line-height: 25px;
+                        width: 100px;
+                        a{
+                            color: #fff; 
+                            line-height: 25px;
+                        }
+                        
+                    }
+                    
+                }
+                .ul1{
+                    width: 220px;
+                    float: left;
+                    font-size: 14px;
+                    li{
+                        width: 220px;
+                        height: 30px;
+                        font-size: 16px;
+                        span{
+                            background: url(http://a3.global.jmstatic.com/5bbea61888585858/footer_icon.png) no-repeat;
+                        }
+                        .spa1{
+                            background-position: 0 0;
+                            width: 25px;
+                            height: 20px;
+                            display: inline-block;
+                            vertical-align: middle;
+                            margin-right: 10px;
+                        }
+                        .spa2{
+                            background-position: 0 -20px;
+                            width: 25px;
+                            height: 20px;
+                            display: inline-block;
+                            vertical-align: middle;
+                            margin-right: 6px;
+                            margin-left: 3px;
+                        }
+                    }
+                }
+            }
+            
+        }
+        p{
+            text-align: center;
+            color: #fff;
+            padding-top: 40px;
+        }
+    }
+}

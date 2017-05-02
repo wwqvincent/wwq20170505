@@ -1,0 +1,273 @@
+#header {
+  min-width: 960px;
+  background: #fff; }
+  #header .logo {
+    height: 85px;
+    width: 960px;
+    margin: 0 auto; }
+    #header .logo .header_logo_a {
+      width: 360px;
+      height: 85px;
+      overflow: hidden;
+      float: left;
+      font-size: 0;
+      line-height: 0;
+      background: url(../img/logo_new_v1.jpg) no-repeat top left; }
+    #header .logo div {
+      display: inline-block;
+      padding-top: 35px;
+      float: right; }
+      #header .logo div .a1 {
+        width: 110px;
+        height: 31px;
+        overflow: hidden;
+        margin-right: 24px;
+        float: right;
+        background: url(../img/a20170429010.jpg) no-repeat -16px -9px; }
+      #header .logo div .a2 {
+        background-image: url(../img/gild.png);
+        width: 170px;
+        height: 31px;
+        overflow: hidden;
+        margin-right: 24px;
+        float: right; }
+      #header .logo div .a3 {
+        width: 110px;
+        height: 31px;
+        overflow: hidden;
+        margin-right: 24px;
+        float: right;
+        background: url(../img/header_corn_new_v2.png) no-repeat 0px 0px transparent; }
+
+.sign {
+  line-height: 1.5; }
+  .sign .loginwrp {
+    margin-top: 120px;
+    margin-bottom: 70px;
+    height: 460px;
+    margin: 100px auto;
+    line-height: 1.5;
+    width: 965px; }
+    .sign .loginwrp .loginpic {
+      background: url(../img/signPic.jpg-.jpg) no-repeat;
+      position: relative;
+      width: 960px;
+      height: 370px; }
+      .sign .loginwrp .loginpic .loginpica1 {
+        display: block;
+        position: absolute;
+        width: 420px;
+        height: 370px; }
+      .sign .loginwrp .loginpic .loginBord {
+        top: -80px;
+        box-shadow: 0 0 10px 5px rgba(0, 0, 0, 0.075);
+        background: rgba(255, 255, 255, 0.85);
+        position: absolute;
+        min-height: 400px;
+        padding: 0 23px;
+        width: 310px;
+        color: #333;
+        right: 0; }
+        .sign .loginwrp .loginpic .loginBord .loginBorddiv {
+          margin-bottom: 15px;
+          line-height: 60px; }
+          .sign .loginwrp .loginpic .loginBord .loginBorddiv div {
+            color: #969696;
+            float: right; }
+          .sign .loginwrp .loginpic .loginBord .loginBorddiv h2 {
+            font-weight: 400;
+            font-size: 20px;
+            color: #e31256 strong;
+              color-font-size: 20px;
+              color-color: #e31256;
+              color-font-weight: bold; }
+        .sign .loginwrp .loginpic .loginBord #iphone {
+          display: block; }
+          .sign .loginwrp .loginpic .loginBord #iphone .iphonediv1 {
+            height: 44px;
+            margin: 0;
+            margin-bottom: 28px;
+            font-size: 12px;
+            clear: both;
+            color: #333; }
+            .sign .loginwrp .loginpic .loginBord #iphone .iphonediv1 .iphonediv1a {
+              margin-bottom: 0;
+              position: relative; }
+              .sign .loginwrp .loginpic .loginBord #iphone .iphonediv1 .iphonediv1a input {
+                box-shadow: none;
+                border: 1px solid #CFCFCF;
+                background-color: #fff;
+                vertical-align: middle;
+                padding: 10px 8px;
+                line-height: 1.5;
+                font-size: 14px;
+                outline: 0;
+                height: auto;
+                width: 284px; }
+              .sign .loginwrp .loginpic .loginBord #iphone .iphonediv1 .iphonediv1a .div1 {
+                word-break: keep-all;
+                white-space: nowrap;
+                margin-top: 4px;
+                color: #999;
+                top: 40px;
+                left: 0;
+                position: absolute;
+                line-height: 1.5; }
+              .sign .loginwrp .loginpic .loginBord #iphone .iphonediv1 .iphonediv1a .div2 {
+                width: 290px;
+                white-space: normal;
+                word-break: normal;
+                height: 1.5em;
+                left: 20px;
+                margin-top: 4px;
+                color: #999;
+                top: 40px;
+                position: absolute;
+                line-height: 1.5;
+                display: none; }
+                .sign .loginwrp .loginpic .loginBord #iphone .iphonediv1 .iphonediv1a .div2 i {
+                  background: url(../img/sign-1.png-2.png) no-repeat;
+                  background-position: 0 -100px;
+                  position: absolute;
+                  left: -20px;
+                  top: 50%;
+                  margin-top: -10px;
+                  height: 20px;
+                  width: 20px; }
+          .sign .loginwrp .loginpic .loginBord #iphone .iphonediv2 {
+            height: 44px;
+            margin: 0;
+            margin-bottom: 28px;
+            font-size: 12px;
+            color: #333; }
+            .sign .loginwrp .loginpic .loginBord #iphone .iphonediv2 .div1 {
+              display: inline-block;
+              margin-bottom: 0;
+              vertical-align: middle;
+              margin-right: 12px;
+              position: relative; }
+              .sign .loginwrp .loginpic .loginBord #iphone .iphonediv2 .div1 input {
+                width: 138px;
+                box-shadow: none;
+                border: 1px solid #CFCFCF;
+                background-color: #fff;
+                vertical-align: middle;
+                padding: 10px 8px;
+                line-height: 1.5;
+                font-size: 14px;
+                outline: 0;
+                height: auto; }
+              .sign .loginwrp .loginpic .loginBord #iphone .iphonediv2 .div1 div {
+                word-break: keep-all;
+                white-space: nowrap;
+                margin-top: 4px;
+                color: #999;
+                top: 100%;
+                left: 0;
+                position: absolute;
+                line-height: 1.5; }
+            .sign .loginwrp .loginpic .loginBord #iphone .iphonediv2 .div2 {
+              background: linear-gradient(to bottom, #fcfcfc, #f2f2f2);
+              border: 1px solid #d9d9d9;
+              text-decoration: none;
+              cursor: pointer;
+              padding: 0 8px;
+              display: inline-block;
+              line-height: 41px;
+              height: 41px;
+              font-weight: 700;
+              color: #666;
+              text-align: center;
+              vertical-align: middle;
+              width: 112px; }
+              .sign .loginwrp .loginpic .loginBord #iphone .iphonediv2 .div2 strong {
+                display: block;
+                float: left; }
+          .sign .loginwrp .loginpic .loginBord #iphone .iphonediv3 {
+            height: 44px;
+            margin: 0;
+            margin-bottom: 28px;
+            font-size: 12px;
+            color: #333; }
+            .sign .loginwrp .loginpic .loginBord #iphone .iphonediv3 .div1 {
+              display: inline-block;
+              margin-bottom: 0;
+              vertical-align: middle;
+              margin-right: 12px;
+              position: relative; }
+              .sign .loginwrp .loginpic .loginBord #iphone .iphonediv3 .div1 input {
+                width: 284px;
+                box-shadow: none;
+                border: 1px solid #CFCFCF;
+                background-color: #fff;
+                vertical-align: middle;
+                padding: 10px 8px;
+                line-height: 1.5;
+                font-size: 14px;
+                outline: 0;
+                height: auto; }
+          .sign .loginwrp .loginpic .loginBord #iphone .iphonediv4 {
+            height: 44px;
+            margin: 0;
+            margin-bottom: 28px;
+            font-size: 12px;
+            color: #333; }
+            .sign .loginwrp .loginpic .loginBord #iphone .iphonediv4 .div1 {
+              display: inline-block;
+              margin-bottom: 0;
+              vertical-align: middle;
+              margin-right: 12px;
+              position: relative; }
+              .sign .loginwrp .loginpic .loginBord #iphone .iphonediv4 .div1 input {
+                width: 284px;
+                box-shadow: none;
+                border: 1px solid #CFCFCF;
+                background-color: #fff;
+                vertical-align: middle;
+                padding: 10px 8px;
+                line-height: 1.5;
+                font-size: 14px;
+                outline: 0;
+                height: auto; }
+          .sign .loginwrp .loginpic .loginBord #iphone .iphonediv5 {
+            margin-left: 0px;
+            margin: 0;
+            margin-bottom: 28px;
+            font-size: 12px;
+            clear: both;
+            color: #333; }
+            .sign .loginwrp .loginpic .loginBord #iphone .iphonediv5 p {
+              margin: 10px 0; }
+              .sign .loginwrp .loginpic .loginBord #iphone .iphonediv5 p input {
+                width: 100%;
+                display: inline-block;
+                font-family: inherit;
+                word-break: keep-all;
+                background: #F8296D;
+                white-space: nowrap;
+                text-align: center;
+                line-height: 40px;
+                font-weight: 700;
+                font-size: 14px;
+                cursor: pointer;
+                padding: 0 30px;
+                height: 40px;
+                color: #fff;
+                border: 0;
+                overflow: visible;
+                vertical-align: middle; }
+
+.footer {
+  background: url(../img/newindex_footer_bg.png) center top repeat-x #404040;
+  line-height: 20px;
+  padding-bottom: 22px;
+  color: #ccc; }
+  .footer .footerdiv5a {
+    width: 1090px;
+    margin: 0 auto;
+    overflow: hidden; }
+    .footer .footerdiv5a p {
+      padding: 14px 128px 18px;
+      line-height: 23px; }
+
+/*# sourceMappingURL=zhuce.css.map */

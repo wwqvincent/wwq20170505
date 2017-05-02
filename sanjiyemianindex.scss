@@ -1,0 +1,168 @@
+@charset"utf-8";
+
+/*-------------------------------------------------------------------------banner*/
+#banner{
+        height: 489px;
+        overflow: hidden;
+        margin-top:26px ;
+        position: relative;
+        z-index: 100;
+        div{
+            position: absolute;
+            top: 00px;
+            left: 0px;
+            width: 100%;
+            height: 100%;
+            overflow: hidden;
+            display: list-item;
+            background-image: url(../img/5902fb17299ce_1920_489.jpg);
+            text-align: center;
+            background-position: center;
+            background-repeat: no-repeat;
+        }
+}
+
+.banner_down{
+    .d1{
+        width: 100%;
+        height: 192;
+        background: url(../img/5902f332742ea_1920_192.jpg) center 0 no-repeat;
+        .div1{
+            position: relative;
+            width: 960px;
+            margin: 0px auto;
+            height: 192px;
+            border: none;
+            background: none;
+        }
+    }
+}
+/*-------------------------------------------------------------------------content*/
+
+.content{
+    width: 960px;
+    margin: 20px auto;
+    background: #fff;
+    .d1{
+        height: 1888px;
+        ul{
+            padding: 10px 0 0 14px;
+             background: #fff;
+            li{
+                overflow: hidden;
+                float: left;
+                display: inline;
+                width: 300px;
+                height: 438px;
+                margin-right: 13px;
+                margin-bottom: 25px;
+                border: 1px solid #F8F5F5;
+                .div1{
+                    width: auto;
+                    height: 45px;
+                    position: absolute;
+                    z-index: 3;
+                    overflow: hidden;
+                    div{
+                        position: static;
+                        float: left;
+                        height: 40px;
+                        width: 40px;
+                        background: url(../img/haitao_icon01.jpg) no-repeat;
+                    }
+                }
+                a{
+                    display: block;
+                    width: 300px;
+                    height: 300px;
+                    position: relative;
+                    
+                    img{
+                        vertical-align: bottom;
+                        border: 0;
+                    }
+                }
+                .div2{
+                    padding: 0 5px;
+                    .ddiv1{
+                        width: 286px;
+                        height: 42px;
+                        font-size: 14px;
+                        display: block;
+                        overflow: hidden;
+                        color: #333;
+                        margin-top: 50px;
+                        font-weight: 700;
+                        zoom: 1;
+                        a{
+                            color: #333;
+                            padding-top: 4px;
+                            height: 36px;
+                            overflow: hidden;
+                            line-height: 18px; 
+                        }
+                    }
+                    .ddiv2{
+                        width: inherit;
+                        height: 45px;
+                        line-height: 45px;
+                        position: relative;
+                        color: #ec1b5d;
+                        .spa1{
+                            color: #ec1b5d;
+                            font-size: 32px;
+                            font-weight: 500;
+                            font-family: Arial;
+                            em{
+                               font-size: 18px; 
+                            }
+                        }
+                        .spa2{
+                            text-decoration: line-through;
+                            padding-left: 5px;
+                            color: #666;
+                            font-size: 13px;
+                            line-height: 45px;
+                        }
+                        a{
+                            background-position: 0 -163px;
+                            width: 86px;
+                            height: 28px;
+                            display: block;
+                            position: absolute;
+                            right: 5px;
+                            top: 10px;
+                            cursor: pointer;
+                            background: url(../img/btn1_new.png) no-repeat; 
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+.content .d1 ul li:hover {border: 1px solid red;}
+
+/*---------------------------------------------------------------------------endkuang*/
+
+.endkuang{
+    .d1{
+        width: 100%;
+        background: url(../img/5902f401da642_1920_132.png) center 0 no-repeat;
+        .div1{
+            position: relative;
+            width: 960px;
+            margin: 0px auto;
+            height: 132px;
+            border: none;
+            background: none;
+              a{
+                position: absolute;
+                left: 228px;
+                top: 13px;
+                width: 420px;
+                height: 97px;
+                }
+        }
+    }
+}

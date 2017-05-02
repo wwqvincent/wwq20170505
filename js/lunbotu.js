@@ -1,4 +1,4 @@
-function $(str){
+function lunbotudoucent(str){
 				return document.getElementById(str);
 			}
 			function getStyle(obj,attr){
@@ -9,14 +9,14 @@ function $(str){
 				}
 			}
 			
-			var oWrap = $("wrap");
-			var oSlide = $("slide");
+			var oWrap = lunbotudoucent("wrap");
+			var oSlide = lunbotudoucent("slide");
 			var iWidth = parseInt(getStyle(oWrap,"width"));
-			var oList = $("list");
+			var oList = lunbotudoucent("list");
 			var oLi = oList.getElementsByTagName("li");
 			var oLen = oLi.length;
-			var oNext = $("next");
-			var oPrev = $("prev");
+			var oNext = lunbotudoucent("next");
+			var oPrev = lunbotudoucent("prev");
 			var m = 0;  //当前第几张图的索引
 			var timer = null;
 			oSlide.innerHTML+=oSlide.innerHTML;

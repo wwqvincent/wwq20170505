@@ -10,9 +10,10 @@ img{display: block;}
 address, caption, cite, code, dfn, th, var { font-style:normal; font-weight:normal; }
 ul, ol{ list-style:none; }
 body {font:12px "Microsoft Yahei";}
-a {text-decoration:none; }
-a:hover, a:active, a:focus { color:#ff8400; text-decoration:underline; } 
+b,strong,em,i{font-weight:normal;font-style:normal}
+a {text-decoration:none;color: #ed145b; }
+a:hover, a:active, a:focus { color:#ff8400; text-decoration:none; } 
 .left{float:left}
 .right{float:right}
 .clear:after{content:"";display:block;clear:both;height:0;overflow:hidden}
-#kaung{background-color: #f7f7f7;}
+#badykaung{background-color: #f7f7f7;}

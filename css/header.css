@@ -11,16 +11,26 @@
 #headertop .left #headertopleft li{padding-right:25px;line-height: 28px;}
 #headertop #headertopright{line-height: 28px;color: #999999;}
 #headertop #headertopright .li1{margin-right: 14px;}
-#headertop #headertopright .li2{margin-left: 10px;margin-right:32px;position: relative;}
+
+
+
+#headertop #headertopright .li2{margin-right:14px;position: relative;}
+#headertop #headertopright .li2 p{width: 80px;position: relative;text-align: center;z-index: 102;}
 #headertop #headertopright .li2 div{background: url(../img/header_newicon1.png);
                                      width: 6px;height: 3px;position: absolute;
-                                     top: 13px;right: -10px;transition:all .5s linear;}
+                                     top: 13px;right: 3px;transition:all .5s linear;z-index: 103;}
+#headertop #headertopright .li2 ul{width:110px;height: 0px;position: absolute;top:27px;left:-31px;background-color: #FFFFFF;z-index: 101;border:1px solid #f2f2f2;overflow: hidden;transition:all .3s linear;}
+#headertop #headertopright .li2 ul li{width: 100%;margin-left:16px ;position: relative;}
+#headertop #headertopright .li2:hover p{background: #FFFFFF;}
+#headertop #headertopright .li2:hover ul{height: 262px;}
+
+
 #headertop #headertopright .li3{margin-left: 12px;margin-right: 14px;color:#ed145b;}
-#headertop #headertopright .li4{margin-left: 30px;margin-right: 92px;position: relative;}
+#headertop #headertopright .li4{margin-left: 10px;margin-right: 92px;position: relative;}
 #headertop #headertopright .li4 p{width: 60px;position: relative;text-align: center;z-index: 102;}
 #headertop #headertopright .li4 div{background: url(../img/header_newicon1.png);
                                     width: 6px;height: 3px;position: absolute;top: 13px;
-                                    right: 6px;transition:all .5s linear;}
+                                    right: 6px;transition:all .5s linear;z-index: 103;}
 #headertop #headertopright .li4 ul{width:110px;height: 210px;position: absolute;top:27px;left:-50px;background-color: #FFFFFF;z-index: 101;border:1px solid #DDDDDD;display: none;}
 #headertop #headertopright .li4 ul li{width: 100%;margin-left:16px ;position: relative;}
 #headertop #headertopright .li4 ul li img{display: block;position: absolute;width: 112px;height: 112px;top:-78px;left:-128px;display: none;}

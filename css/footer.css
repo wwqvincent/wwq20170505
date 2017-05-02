@@ -1,0 +1,191 @@
+#footer {
+  overflow: hidden;
+  border-top: 1px solid #ccc;
+  background: #fff;
+  position: relative;
+  bottom: -1px;
+  height: 738px; }
+  #footer .footerd .footerdiv1 .footerdiv1a {
+    padding: 30px 0 15px;
+    border-bottom: 1px solid #ccc;
+    width: 1090px;
+    margin: 0 auto;
+    overflow: hidden; }
+    #footer .footerd .footerdiv1 .footerdiv1a a {
+      width: 130px;
+      height: 140px;
+      color: #999;
+      font-size: 14px;
+      display: block;
+      float: left;
+      line-height: 18px;
+      overflow: hidden;
+      text-align: center;
+      margin-left: 20px; }
+      #footer .footerd .footerdiv1 .footerdiv1a a .spa11 {
+        width: 63px;
+        height: 63px;
+        display: block;
+        overflow: hidden;
+        margin: 0 auto 20px;
+        cursor: pointer;
+        background: url(../img/footer_0901.jpg) no-repeat; }
+      #footer .footerd .footerdiv1 .footerdiv1a a .spa12 {
+        width: 63px;
+        height: 63px;
+        display: block;
+        overflow: hidden;
+        margin: 0 auto 20px;
+        cursor: pointer;
+        background: url(../img/footer_new.png) no-repeat -64px 0px; }
+      #footer .footerd .footerdiv1 .footerdiv1a a .spa13 {
+        width: 63px;
+        height: 63px;
+        display: block;
+        overflow: hidden;
+        margin: 0 auto 20px;
+        cursor: pointer;
+        background: url(../img/footer_new.png) no-repeat -127px 0px; }
+      #footer .footerd .footerdiv1 .footerdiv1a a .spa14 {
+        width: 63px;
+        height: 63px;
+        display: block;
+        overflow: hidden;
+        margin: 0 auto 20px;
+        cursor: pointer;
+        background: url(../img/footer_new.png) no-repeat -190px 0px; }
+      #footer .footerd .footerdiv1 .footerdiv1a a .spa15 {
+        width: 63px;
+        height: 63px;
+        display: block;
+        overflow: hidden;
+        margin: 0 auto 20px;
+        cursor: pointer;
+        background: url(../img/footer_new.png) no-repeat -253px 0px; }
+      #footer .footerd .footerdiv1 .footerdiv1a a .spa16 {
+        width: 63px;
+        height: 63px;
+        display: block;
+        overflow: hidden;
+        margin: 0 auto 20px;
+        cursor: pointer;
+        background: url(../img/footer_new.png) no-repeat -316px 0px; }
+      #footer .footerd .footerdiv1 .footerdiv1a a .spa17 {
+        width: 63px;
+        height: 63px;
+        display: block;
+        overflow: hidden;
+        margin: 0 auto 20px;
+        cursor: pointer;
+        background: url(../img/footer_new.png) no-repeat -379px 0px; }
+      #footer .footerd .footerdiv1 .footerdiv1a a .spa2 {
+        color: #333;
+        font-size: 12px;
+        height: 24px;
+        line-height: 24px;
+        display: block;
+        cursor: pointer; }
+        #footer .footerd .footerdiv1 .footerdiv1a a .spa2 b {
+          font-weight: bold;
+          font-size: 16px; }
+  #footer .footerd .footerdiv2 .footerdiv2a {
+    height: 165px;
+    padding-top: 30px;
+    width: 1090px;
+    margin: 0 auto;
+    overflow: hidden; }
+    #footer .footerd .footerdiv2 .footerdiv2a .ul1 {
+      width: 150px;
+      height: 143px;
+      padding-left: 16px;
+      float: left;
+      zoom: 1;
+      overflow: hidden; }
+      #footer .footerd .footerdiv2 .footerdiv2a .ul1 .li1 {
+        color: #666;
+        font-size: 14px;
+        font-weight: 700;
+        margin-bottom: 10px;
+        overflow: hidden; }
+      #footer .footerd .footerdiv2 .footerdiv2a .ul1 li {
+        font-size: 12px;
+        white-space: nowrap;
+        overflow: hidden; }
+        #footer .footerd .footerdiv2 .footerdiv2a .ul1 li a {
+          height: 22px;
+          line-height: 22px;
+          color: #666;
+          display: block;
+          transition: transform .4s linear;
+          -moz-transition: transform .4s linear;
+          -webkit-transition: transform .4s linear;
+          -o-transition: transform .4s linear;
+          -ms-transition: transform .4s linear; }
+    #footer .footerd .footerdiv2 .footerdiv2a .div1 {
+      border-left: 1px solid #fff;
+      display: inline-block;
+      margin-left: 16px; }
+      #footer .footerd .footerdiv2 .footerdiv2a .div1 ul {
+        width: 83px;
+        text-align: center;
+        padding-left: 36px;
+        margin-top: 0;
+        height: 146px;
+        color: #666;
+        float: left;
+        zoom: 1;
+        overflow: hidden; }
+        #footer .footerd .footerdiv2 .footerdiv2a .div1 ul li {
+          font-size: 12px;
+          white-space: nowrap;
+          overflow: hidden; }
+          #footer .footerd .footerdiv2 .footerdiv2a .div1 ul li span {
+            background: url(../img/header_corn_new_v2.png) 0 -423px no-repeat;
+            width: 78px;
+            height: 78px;
+            display: inline-block;
+            overflow: hidden;
+            margin-left: 3px; }
+        #footer .footerd .footerdiv2 .footerdiv2a .div1 ul .li1 {
+          color: #666;
+          font-size: 14px;
+          font-weight: 700;
+          margin-bottom: 10px;
+          overflow: hidden; }
+  #footer .footerd .footerdiv3 {
+    height: 95px;
+    background: url(../img/footer_dy.jpg) center top no-repeat; }
+    #footer .footerd .footerdiv3 .footerdiv3a {
+      width: 360px;
+      height: 95px;
+      margin: 0 auto; }
+  #footer .footerd .footerdiv4 {
+    height: 48px;
+    line-height: 48px;
+    overflow: hidden;
+    font-size: 12px;
+    color: #fff;
+    background: url(../img/footer_btm02_bg.jpg) center top repeat-x; }
+    #footer .footerd .footerdiv4 .footerdiv4a {
+      width: 1090px;
+      margin: 0 218px auto;
+      overflow: hidden; }
+      #footer .footerd .footerdiv4 .footerdiv4a a {
+        color: #fff;
+        padding-right: 12px;
+        height: 48px;
+        display: inline-block; }
+  #footer .footerd .footerdiv5 {
+    background: url(../img/newindex_footer_bg.png) center top repeat-x #404040;
+    line-height: 20px;
+    padding-bottom: 80px;
+    color: #ccc; }
+    #footer .footerd .footerdiv5 .footerdiv5a {
+      width: 1090px;
+      margin: 0 auto;
+      overflow: hidden; }
+      #footer .footerd .footerdiv5 .footerdiv5a p {
+        padding: 14px 128px 18px;
+        line-height: 23px; }
+
+/*# sourceMappingURL=footer.css.map */

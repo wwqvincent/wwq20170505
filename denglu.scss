@@ -1,0 +1,289 @@
+@charset"utf-8";
+
+#header{
+        min-width: 960px;
+        background: #fff;
+    .logo{
+            height: 85px;
+            width: 960px;
+            margin: 0 auto;
+        .header_logo_a{
+            width: 360px;
+            height: 85px;
+            overflow: hidden;
+            float: left;
+            font-size: 0;
+            line-height: 0; 
+            background: url(../img/logo_new_v1.jpg) no-repeat top left; 
+        }
+        div{
+            display: inline-block;
+            padding-top: 35px;
+            float: right;
+            .a1{
+                    width: 110px;
+                    height: 31px;
+                    overflow: hidden;
+                    margin-right: 24px;
+                    float: right;
+                    background: url(../img/a20170429010.jpg) no-repeat -16px -9px;
+            }
+            .a2{
+                    background-image: url(../img/gild.png);
+                    width: 170px;
+                    height: 31px;
+                    overflow: hidden;
+                    margin-right: 24px;
+                    float: right;
+
+            }
+            .a3{
+                width: 110px;
+                height: 31px;
+                overflow: hidden;
+                margin-right: 24px;
+                float: right;
+                background: url(../img/header_corn_new_v2.png) no-repeat 0px 0px transparent;
+            }
+        }
+    }
+}
+
+.sign{
+      line-height: 1.5;
+    .loginwrp{
+        margin-top: 120px;
+        margin-bottom: 70px;
+        height: 460px;
+        margin: 100px auto;
+        line-height: 1.5;
+        width: 965px;
+        .loginpic{
+            background: url(../img/loginPic.jpg-1.jpg) no-repeat;
+            position: relative;
+            width: 960px;
+            height: 370px;
+            .loginpica1{
+                display: block;
+                position: absolute;
+                width: 420px;
+                height: 370px;
+            }
+            .loginBord{
+                    top: -80px;
+                    box-shadow: 0 0 10px 5px  rgba(0,0,0,.075);
+                    background: rgba(255,255,255,.85);
+                    position: absolute;
+                    min-height: 400px;
+                    padding: 0 23px;
+                    width: 310px;
+                    color: #333;
+                    right: 0;
+                    .div1{
+                         margin-bottom: 15px;
+                         line-height: 60px;
+                        .d1{
+                            color: #969696;
+                             float: right;
+                             a{
+                                 color: #ed145b;
+                                  text-decoration: none;
+                             }
+                        }
+                        h2{
+                            font-weight: 400;
+                            font-size: 20px;
+                            color: #e31256;
+                        }
+                    }
+                    #from1{
+                           .d1{
+                               margin-top: 16px;
+                                margin-bottom: 26px;
+                                height: 44px;
+                                position: relative;
+                                background-image: url(../img/sign-1.png-2.png);
+                                background-repeat: no-repeat;
+                               #username1{
+                                    margin-left: 38px;
+                                    width: 252px;
+                                    background-position: 5px 0;
+                                    border: 1px solid #CFCFCF;
+                                    background-color: #fff;
+                                    vertical-align: middle;
+                                    padding: 10px 8px;
+                                    line-height: 1.5;
+                                    font-size: 14px;
+                                    outline: 0;
+                                    height: auto;
+                                    
+                               }
+                               .div1{
+                                    word-break: keep-all;
+                                    white-space: nowrap;
+                                    margin-top: 4px;
+                                    color: #999;
+                                    top: 100%;
+                                    left: 0;
+                                    position: absolute;
+                                     line-height: 1.5;
+                               }
+                           }
+                            .d2{
+                                margin-bottom: 26px;
+                                position: relative;
+                                height: 44px;
+                                background-image: url(../img/sign-1.png-2.png);
+                                background-repeat: no-repeat;
+                                background-position:1px -50px;
+                               #username2{
+                                    margin-left: 38px;
+                                    width: 252px;
+                                    
+                                    border: 1px solid #CFCFCF;
+                                    background-color: #fff;
+                                    vertical-align: middle;
+                                    padding: 10px 8px;
+                                    line-height: 1.5;
+                                    font-size: 14px;
+                                    outline: 0;
+                                    height: auto;
+                                    font-family: inherit;
+                               }
+                               .div1{
+                                    word-break: keep-all;
+                                    white-space: nowrap;
+                                    margin-top: 4px;
+                                    color: #999;
+                                    top: 100%;
+                                    left: 0;
+                                    position: absolute;
+                                    line-height: 1.5;
+                               }
+                           }
+                           p{
+                               margin: 36px 0;
+                               a{
+                                    color: inherit;
+                                    float: right;
+                               }
+                               label{
+                                        color: #333;
+                                    #pbtn{
+                                           vertical-align: middle;
+                                   }
+                               }
+                               
+                           }
+                       
+                       #from1btn{
+                            display: block;
+                            width: 100%; 
+                            font-family: inherit;
+                            word-break: keep-all;
+                            background: #F8296D;
+                            white-space: nowrap;
+                            text-align: center;
+                            line-height: 40px;
+                            font-weight: 700;
+                            font-size: 14px;
+                            cursor: pointer;
+                            padding: 0 30px;
+                            height: 40px;
+                            color: #fff;
+                            border: 0;
+                            vertical-align: middle;  
+                            margin-bottom: 10px;
+                        }
+                    }
+                    .div2{
+                        font-size: 12px;
+                        line-height: 1.5;
+                        .div1{
+                            padding-bottom: 10px;
+                            padding-top: 5px;
+                            color: #333;
+                            line-height: 1.5;
+                        }
+                        p{
+                            overflow: hidden;
+                            zoom: 1;
+                            margin-bottom: 15px;
+                            a{
+                                color: inherit;
+                                margin-right: 10px;
+                                text-indent: -9999px;
+                                background-image: url(../img/icon.jpg);
+                                background-repeat: no-repeat;
+                                display: inline-block;
+                                width: 43px;
+                                height: 43px;
+                                float: left;
+                            }
+                            .a1{
+                                
+                                background-position: 0 0;
+                            }
+                            .a2{
+                                
+                                background-position: -57px 0;
+                            }
+                            .a3{
+                                
+                                background-position: -114px 0;
+                            }
+                            .a4{
+                                
+                                background-position: -169px 0;
+                            }
+                            .a5{
+                                
+                                background-position: -224px 0;
+                            }
+                            .a6{
+                                margin-left: 24px;
+                                background-position: 0 -54px;
+                            }
+                            .a7{
+                                
+                                background-position: -57px -54px;
+                            }
+                            .a8{
+                                
+                                background-position: -114px -54px;
+                            }
+                            .a9{
+                                
+                                background-position: -169px -54px;
+                            }
+                        }
+                    }
+                    
+                }
+        }
+    }
+}
+
+.footer{
+        background: url(../img/newindex_footer_bg.png) center top repeat-x #404040;
+        line-height: 20px;
+        padding-bottom: 22px;
+        color: #ccc;
+    .footerdiv5a{
+            width: 1090px;
+            margin: 0 auto;
+            overflow: hidden;
+        p{
+                padding: 14px 128px 18px;
+                line-height: 23px;
+           }
+            img{
+                
+            }
+        }
+    
+        
+}
+
+
+

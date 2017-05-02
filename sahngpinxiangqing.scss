@@ -1,0 +1,323 @@
+#main{
+    position: relative;
+    background: #f7f7f7;
+    padding-bottom: 1px;
+    zoom: 1;
+    margin-top:26px ;
+    .mainkuang{
+        width: 1090px;
+        margin: 0 auto;
+        padding-top: 20px;
+        .div1{
+            background: #fff;
+            padding-bottom: 30px;
+            border-top: none;
+            box-shadow: 1px 1px 4px #d3d3d3;
+            display: inline-block;
+            width: 100%;
+            .d1{
+                width: 702px;
+                float: left;
+                position: relative;
+                .diva{
+                    background: #f8f8f8;
+                    padding: 5px 0 20px 48px;
+                        p{
+                            font-size: 18px;
+                            overflow: hidden;
+                            height: 107px;
+                            word-wrap: break-word;
+                            word-break: normal; 
+                            width: 630px;
+                        }
+                }
+                .divb{
+                    position: relative;
+                    div{
+                        width: 700px;
+                        height: 400px;
+                        overflow: hidden;
+                        text-align: center;
+                        position: relative;
+                        border: 1px solid #efefef;
+                        img{
+                            width: 1000px;
+                            height: 400px;
+                            margin-left: -150px;
+                            vertical-align: bottom;
+                            border: 0;
+                        }
+                    }
+                    
+                }
+                .divc{
+                    padding: 18px 0 0 54px;
+                    height: 25px;
+                    div{
+                        width: 450px;
+                        overflow: hidden;
+                        height: 25px;
+                        float: left;
+                        a{
+                            display: inline-block;
+                            float: left;
+                            color: #5c5c5c;
+                            text-decoration: none;
+                            white-space: nowrap;
+                            margin-right: 6px;
+                            height: 23px;
+                            line-height: 23px;
+                            border: 1px solid #e1e0e0;
+                            padding: 0 8px; 
+                        }
+                    }
+                }
+            }
+            .d2{
+                float: left;
+                margin-left: 30px;
+                width: 330px;
+               .diva{
+                    padding: 25px 0;
+                    border-bottom: 1px dotted #c5c5c5;
+                    height: 80px;
+                   a{
+                       img{
+                            width: 160px;
+                            height: 80px;
+                            float: left;
+                            vertical-align: bottom;
+                            border: 0
+                       }
+                   }
+               }
+               
+               .divb{
+                    padding-bottom: 10px;
+                    padding: 25px 0;
+                    border-bottom: 1px dotted #c5c5c5;
+                   ul{
+                        padding-bottom: 20px;
+                       .li1{
+                            float: left;
+                            color: #232323;
+                            font-size: 38px;
+                            line-height: 1;
+                            font-family: arial;
+                            margin-right: 10px;
+                               em{
+                                    font-size: 24px;
+                                    font-family: arial;
+                                    vertical-align: top;
+                                    line-height: 1.4;
+                                    margin-right: 5px;
+                               }
+                       }
+                       .li2{
+                                float: right;
+                                margin-top: 13px;
+                                position: relative;
+                                z-index: 3;
+                           .spa1{
+                                  color: #666;
+                                  cursor: pointer;
+                           }
+                           .divaa{
+                                    position: absolute;
+                                    background: #fff;
+                                    top: 15px;
+                                    right: 0;
+                                    width: 420px;
+                                    display:none;
+                               .divaakaung{
+                                    border: 1px solid #bdb5cd;
+                                    padding: 15px;
+                                    line-height: 180%;
+                                    box-shadow: 3px 3px 8px #efefef;
+                                    color: #bbb;
+                                    position: absolute;
+                                    background: #fff;
+                                    top: 15px;
+                                    right: 0;
+                                    width: 420px;
+                                   .divaa1{
+                                           padding: 5px 30px;
+                                           .p1{
+                                                font-weight: 700;
+                                                overflow: hidden;
+                                                width: 355px;
+                                                height: 30px;
+                                                white-space: nowrap;
+                                                text-overflow: ellipsis;
+                                                word-break: keep-all;
+                                                color: #333;
+                                                font-size: 14px;
+                                               span{
+                                                   white-space: nowrap;
+                                               }
+                                           }
+                                           .p2{
+                                                color: #333;
+                                                font-size: 14px;
+                                           }
+                                   }
+                                   .divaa2{
+                                        border-top: 1px solid #ebebeb;
+                                        margin: 5px 30px;
+                                        padding: 10px 5px;
+                                        position: relative;
+                                       .divaa1d{
+                                           display: inline-block;
+                                           .divbb1{
+                                                float: left;
+                                                text-align: center;
+                                                margin: 10px 16px;
+                                                  img{
+                                                    width: 108px;
+                                                    height: 108px;
+                                                    vertical-align: bottom;
+                                                    border: 0;
+                                                  } 
+                                                  p{
+                                                    width: 110px;
+                                                    overflow: hidden;
+                                                    color: #7e7e7e;
+                                                    margin: 5px 15px;
+                                                    text-align: center; 
+                                                  }
+                                                  
+                                                  p:nth-child(2){ 
+                                                    height: 40px;
+                                                    color: #7e7e7e;
+                                                    overflow: hidden;
+                                                    text-overflow: ellipsis;
+                                                    word-wrap: break-word;
+                                                 }
+                                           }
+                                           .divbb2{
+                                                font-size: 40px;
+                                                font-weight: 700;
+                                                color: #d2d2d2;
+                                                padding: 30px 17px;
+                                                position: absolute;
+                                                left: 143px;
+                                                top: 35px;
+                                                float: left;
+                                           }
+                                           span{
+                                                position: absolute;
+                                                right: -20px;
+                                                bottom: 0;
+                                                color: #bbb;
+                                                line-height: 180%;
+                                           }
+                                       }
+                                   }
+                                   .divaa3{
+                                        border: 1px solid #999;
+                                        padding: 10px;
+                                        color: #999;
+                                       span{
+                                            font-size: 12px;
+                                             line-height: 20px;
+                                       }
+                                    }
+                                }
+                           }
+                       }
+                   }
+               } 
+               .divc{
+                    padding: 18px 0 36px;
+                    border-bottom: 1px dotted #c5c5c5;
+                    color: #999;
+                    .divcaa{
+                            background-position: 0 3px;
+                            margin-right: 40px;
+                            background-image: url(../img/pop_icon.png);
+                            background-repeat: no-repeat;
+                            padding-left: 23px;
+                            float: left;
+                        .em1{
+                            color: #fd4d87;
+                            font-weight: 700;
+                        }
+                    } 
+               }
+               .divd{
+                    padding: 25px 0;
+                    border-bottom: 1px dotted #c5c5c5;
+                    padding-top: 12px;
+                    display: inline-block;
+                   .divddd1{
+                        color: #8e8e8e;
+                        font-size: 13px;
+                        padding-top: 13px;
+                        display: inline-block;
+                   }
+                   .divddd2{
+                        color: #8e8e8e;
+                        font-size: 13px;
+                        padding-top: 13px;
+                        display: inline-block;
+                   }
+                   .divddd3{
+                            color: #666;
+                            font-size: 13px;
+                            position: relative;
+                            padding-top: 13px;
+                       
+                       .spaxinghao{
+                                margin-right: 13px;
+                       }
+                       select{
+                           width:188px;
+                       }
+                   }
+               }
+               .dive{
+                    border-bottom: none;
+                    padding: 36px 36px 15px;
+                    .a1{
+                        background-color: #ed145b;
+                        margin-right: 0;
+                        width: 183px;
+                        height: 41px;
+                        line-height: 41px;
+                        color: #fff;
+                        font-size: 16px;
+                        text-align: center;
+                        cursor: pointer;
+                        display: inline-block;
+                        .spa1{
+                                display: inline-block;
+                        }
+                        .i1{
+                            width: 9px;
+                            height: 14px;
+                            background-position: -3px -18px;
+                            overflow: hidden;
+                            margin-left: 10px;
+                            vertical-align: middle;
+                            display: inline-block;
+                            background-image: url(../img/detail_icon.png);
+                            background-repeat: no-repeat; 
+                        }
+                    }
+               }
+               
+            }
+        }
+        .div2{
+            
+        }
+        .div3{
+            
+        }
+        .div4{
+            
+        }
+        
+    }
+}
+#main .mainkuang .div1 .d2 .divb ul .li2:hover .divaa{display: block;}

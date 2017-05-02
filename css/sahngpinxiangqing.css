@@ -1,0 +1,260 @@
+#main {
+  position: relative;
+  background: #f7f7f7;
+  padding-bottom: 1px;
+  zoom: 1;
+  margin-top: 26px; }
+  #main .mainkuang {
+    width: 1090px;
+    margin: 0 auto;
+    padding-top: 20px; }
+    #main .mainkuang .div1 {
+      background: #fff;
+      padding-bottom: 30px;
+      border-top: none;
+      box-shadow: 1px 1px 4px #d3d3d3;
+      display: inline-block;
+      width: 100%; }
+      #main .mainkuang .div1 .d1 {
+        width: 702px;
+        float: left;
+        position: relative; }
+        #main .mainkuang .div1 .d1 .diva {
+          background: #f8f8f8;
+          padding: 5px 0 20px 48px; }
+          #main .mainkuang .div1 .d1 .diva p {
+            font-size: 18px;
+            overflow: hidden;
+            height: 107px;
+            word-wrap: break-word;
+            word-break: normal;
+            width: 630px; }
+        #main .mainkuang .div1 .d1 .divb {
+          position: relative; }
+          #main .mainkuang .div1 .d1 .divb div {
+            width: 700px;
+            height: 400px;
+            overflow: hidden;
+            text-align: center;
+            position: relative;
+            border: 1px solid #efefef; }
+            #main .mainkuang .div1 .d1 .divb div img {
+              width: 1000px;
+              height: 400px;
+              margin-left: -150px;
+              vertical-align: bottom;
+              border: 0; }
+        #main .mainkuang .div1 .d1 .divc {
+          padding: 18px 0 0 54px;
+          height: 25px; }
+          #main .mainkuang .div1 .d1 .divc div {
+            width: 450px;
+            overflow: hidden;
+            height: 25px;
+            float: left; }
+            #main .mainkuang .div1 .d1 .divc div a {
+              display: inline-block;
+              float: left;
+              color: #5c5c5c;
+              text-decoration: none;
+              white-space: nowrap;
+              margin-right: 6px;
+              height: 23px;
+              line-height: 23px;
+              border: 1px solid #e1e0e0;
+              padding: 0 8px; }
+      #main .mainkuang .div1 .d2 {
+        float: left;
+        margin-left: 30px;
+        width: 330px; }
+        #main .mainkuang .div1 .d2 .diva {
+          padding: 25px 0;
+          border-bottom: 1px dotted #c5c5c5;
+          height: 80px; }
+          #main .mainkuang .div1 .d2 .diva a img {
+            width: 160px;
+            height: 80px;
+            float: left;
+            vertical-align: bottom;
+            border: 0; }
+        #main .mainkuang .div1 .d2 .divb {
+          padding-bottom: 10px;
+          padding: 25px 0;
+          border-bottom: 1px dotted #c5c5c5; }
+          #main .mainkuang .div1 .d2 .divb ul {
+            padding-bottom: 20px; }
+            #main .mainkuang .div1 .d2 .divb ul .li1 {
+              float: left;
+              color: #232323;
+              font-size: 38px;
+              line-height: 1;
+              font-family: arial;
+              margin-right: 10px; }
+              #main .mainkuang .div1 .d2 .divb ul .li1 em {
+                font-size: 24px;
+                font-family: arial;
+                vertical-align: top;
+                line-height: 1.4;
+                margin-right: 5px; }
+            #main .mainkuang .div1 .d2 .divb ul .li2 {
+              float: right;
+              margin-top: 13px;
+              position: relative;
+              z-index: 3; }
+              #main .mainkuang .div1 .d2 .divb ul .li2 .spa1 {
+                color: #666;
+                cursor: pointer; }
+              #main .mainkuang .div1 .d2 .divb ul .li2 .divaa {
+                position: absolute;
+                background: #fff;
+                top: 15px;
+                right: 0;
+                width: 420px;
+                display: none; }
+                #main .mainkuang .div1 .d2 .divb ul .li2 .divaa .divaakaung {
+                  border: 1px solid #bdb5cd;
+                  padding: 15px;
+                  line-height: 180%;
+                  box-shadow: 3px 3px 8px #efefef;
+                  color: #bbb;
+                  position: absolute;
+                  background: #fff;
+                  top: 15px;
+                  right: 0;
+                  width: 420px; }
+                  #main .mainkuang .div1 .d2 .divb ul .li2 .divaa .divaakaung .divaa1 {
+                    padding: 5px 30px; }
+                    #main .mainkuang .div1 .d2 .divb ul .li2 .divaa .divaakaung .divaa1 .p1 {
+                      font-weight: 700;
+                      overflow: hidden;
+                      width: 355px;
+                      height: 30px;
+                      white-space: nowrap;
+                      text-overflow: ellipsis;
+                      word-break: keep-all;
+                      color: #333;
+                      font-size: 14px; }
+                      #main .mainkuang .div1 .d2 .divb ul .li2 .divaa .divaakaung .divaa1 .p1 span {
+                        white-space: nowrap; }
+                    #main .mainkuang .div1 .d2 .divb ul .li2 .divaa .divaakaung .divaa1 .p2 {
+                      color: #333;
+                      font-size: 14px; }
+                  #main .mainkuang .div1 .d2 .divb ul .li2 .divaa .divaakaung .divaa2 {
+                    border-top: 1px solid #ebebeb;
+                    margin: 5px 30px;
+                    padding: 10px 5px;
+                    position: relative; }
+                    #main .mainkuang .div1 .d2 .divb ul .li2 .divaa .divaakaung .divaa2 .divaa1d {
+                      display: inline-block; }
+                      #main .mainkuang .div1 .d2 .divb ul .li2 .divaa .divaakaung .divaa2 .divaa1d .divbb1 {
+                        float: left;
+                        text-align: center;
+                        margin: 10px 16px; }
+                        #main .mainkuang .div1 .d2 .divb ul .li2 .divaa .divaakaung .divaa2 .divaa1d .divbb1 img {
+                          width: 108px;
+                          height: 108px;
+                          vertical-align: bottom;
+                          border: 0; }
+                        #main .mainkuang .div1 .d2 .divb ul .li2 .divaa .divaakaung .divaa2 .divaa1d .divbb1 p {
+                          width: 110px;
+                          overflow: hidden;
+                          color: #7e7e7e;
+                          margin: 5px 15px;
+                          text-align: center; }
+                        #main .mainkuang .div1 .d2 .divb ul .li2 .divaa .divaakaung .divaa2 .divaa1d .divbb1 p:nth-child(2) {
+                          height: 40px;
+                          color: #7e7e7e;
+                          overflow: hidden;
+                          text-overflow: ellipsis;
+                          word-wrap: break-word; }
+                      #main .mainkuang .div1 .d2 .divb ul .li2 .divaa .divaakaung .divaa2 .divaa1d .divbb2 {
+                        font-size: 40px;
+                        font-weight: 700;
+                        color: #d2d2d2;
+                        padding: 30px 17px;
+                        position: absolute;
+                        left: 143px;
+                        top: 35px;
+                        float: left; }
+                      #main .mainkuang .div1 .d2 .divb ul .li2 .divaa .divaakaung .divaa2 .divaa1d span {
+                        position: absolute;
+                        right: -20px;
+                        bottom: 0;
+                        color: #bbb;
+                        line-height: 180%; }
+                  #main .mainkuang .div1 .d2 .divb ul .li2 .divaa .divaakaung .divaa3 {
+                    border: 1px solid #999;
+                    padding: 10px;
+                    color: #999; }
+                    #main .mainkuang .div1 .d2 .divb ul .li2 .divaa .divaakaung .divaa3 span {
+                      font-size: 12px;
+                      line-height: 20px; }
+        #main .mainkuang .div1 .d2 .divc {
+          padding: 18px 0 36px;
+          border-bottom: 1px dotted #c5c5c5;
+          color: #999; }
+          #main .mainkuang .div1 .d2 .divc .divcaa {
+            background-position: 0 3px;
+            margin-right: 40px;
+            background-image: url(../img/pop_icon.png);
+            background-repeat: no-repeat;
+            padding-left: 23px;
+            float: left; }
+            #main .mainkuang .div1 .d2 .divc .divcaa .em1 {
+              color: #fd4d87;
+              font-weight: 700; }
+        #main .mainkuang .div1 .d2 .divd {
+          padding: 25px 0;
+          border-bottom: 1px dotted #c5c5c5;
+          padding-top: 12px;
+          display: inline-block; }
+          #main .mainkuang .div1 .d2 .divd .divddd1 {
+            color: #8e8e8e;
+            font-size: 13px;
+            padding-top: 13px;
+            display: inline-block; }
+          #main .mainkuang .div1 .d2 .divd .divddd2 {
+            color: #8e8e8e;
+            font-size: 13px;
+            padding-top: 13px;
+            display: inline-block; }
+          #main .mainkuang .div1 .d2 .divd .divddd3 {
+            color: #666;
+            font-size: 13px;
+            position: relative;
+            padding-top: 13px; }
+            #main .mainkuang .div1 .d2 .divd .divddd3 .spaxinghao {
+              margin-right: 13px; }
+            #main .mainkuang .div1 .d2 .divd .divddd3 select {
+              width: 188px; }
+        #main .mainkuang .div1 .d2 .dive {
+          border-bottom: none;
+          padding: 36px 36px 15px; }
+          #main .mainkuang .div1 .d2 .dive .a1 {
+            background-color: #ed145b;
+            margin-right: 0;
+            width: 183px;
+            height: 41px;
+            line-height: 41px;
+            color: #fff;
+            font-size: 16px;
+            text-align: center;
+            cursor: pointer;
+            display: inline-block; }
+            #main .mainkuang .div1 .d2 .dive .a1 .spa1 {
+              display: inline-block; }
+            #main .mainkuang .div1 .d2 .dive .a1 .i1 {
+              width: 9px;
+              height: 14px;
+              background-position: -3px -18px;
+              overflow: hidden;
+              margin-left: 10px;
+              vertical-align: middle;
+              display: inline-block;
+              background-image: url(../img/detail_icon.png);
+              background-repeat: no-repeat; }
+
+#main .mainkuang .div1 .d2 .divb ul .li2:hover .divaa {
+  display: block; }
+
+/*# sourceMappingURL=sahngpinxiangqing.css.map */

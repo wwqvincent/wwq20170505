@@ -1,0 +1,348 @@
+/*-------------------------------------------------------------------------cebianlan*/
+#cebianlan {
+  position: fixed;
+  width: 40px;
+  height: 100%;
+  background-color: #444851;
+  top: 0px;
+  right: 0px;
+  z-index: 9990;
+  font-size: 12px;
+  backface-visibility: hidden; }
+  #cebianlan .cebianlan1 {
+    width: 40px;
+    height: 100%;
+    position: absolute;
+    background: #444851;
+    z-index: 2;
+    top: 0;
+    left: 0px; }
+    #cebianlan .cebianlan1 a {
+      line-height: 200px;
+      width: 40px;
+      height: 38px;
+      text-decoration: none;
+      color: #d8d8d8;
+      background-color: #444851;
+      position: relative;
+      top: 0;
+      left: 0;
+      z-index: 1; }
+      #cebianlan .cebianlan1 a em {
+        position: absolute;
+        cursor: pointer; }
+    #cebianlan .cebianlan1 .cebianlan1ul1 {
+      position: absolute;
+      top: 50%;
+      margin-top: -190px;
+      left: 0;
+      background: #444851;
+      z-index: 2; }
+      #cebianlan .cebianlan1 .cebianlan1ul1 em {
+        width: 23px;
+        height: 25px;
+        top: 11px;
+        left: 9px;
+        background-position: 0 -29px; }
+      #cebianlan .cebianlan1 .cebianlan1ul1 li {
+        position: relative;
+        display: block;
+        height: 38px;
+        z-index: 1; }
+      #cebianlan .cebianlan1 .cebianlan1ul1 .li1 {
+        position: relative;
+        background: #444851; }
+        #cebianlan .cebianlan1 .cebianlan1ul1 .li1 a {
+          display: block;
+          background: url(../img/ibar_sprites.png) no-repeat 12px 10px; }
+          #cebianlan .cebianlan1 .cebianlan1ul1 .li1 a div {
+            width: 290px;
+            height: 210px;
+            position: absolute;
+            border: 1px solid #999999;
+            background: #FFFFFF;
+            z-index: 200;
+            top: 0px;
+            right: 39px;
+            display: none; }
+            #cebianlan .cebianlan1 .cebianlan1ul1 .li1 a div i {
+              position: absolute;
+              top: 20px;
+              left: 110px; }
+              #cebianlan .cebianlan1 .cebianlan1ul1 .li1 a div i img {
+                border-radius: 50%;
+                display: block; }
+            #cebianlan .cebianlan1 .cebianlan1ul1 .li1 a div p {
+              position: relative;
+              top: 14px;
+              left: 91px;
+              z-index: 1; }
+              #cebianlan .cebianlan1 .cebianlan1ul1 .li1 a div p em {
+                color: #ED145B; }
+            #cebianlan .cebianlan1 .cebianlan1ul1 .li1 a div b {
+              position: absolute;
+              bottom: 0px;
+              left: 0px; }
+          #cebianlan .cebianlan1 .cebianlan1ul1 .li1 a span {
+            border: 7px solid #ED145B;
+            border-left: 7px solid #FFFFFF;
+            border-right: 0px;
+            position: absolute;
+            top: 10px;
+            left: 0px;
+            z-index: 201;
+            display: none; }
+      #cebianlan .cebianlan1 .cebianlan1ul1 .li2 {
+        padding: 20px 0 10px;
+        height: 133px;
+        left: 0px; }
+        #cebianlan .cebianlan1 .cebianlan1ul1 .li2 a {
+          top: 00px;
+          left: 0px;
+          margin-top: 60px;
+          line-height: 16px;
+          height: 133px;
+          background-position: -23px -225px;
+          color: #fff;
+          z-index: 201; }
+          #cebianlan .cebianlan1 .cebianlan1ul1 .li2 a em {
+            background: url(../img/ibar_sprites.png) no-repeat 0px -30px; }
+          #cebianlan .cebianlan1 .cebianlan1ul1 .li2 a .spa1 {
+            width: 16px;
+            display: block;
+            height: 48px;
+            margin: 38px 0 0 14px;
+            cursor: pointer; }
+          #cebianlan .cebianlan1 .cebianlan1ul1 .li2 a .spa2 {
+            width: 23px;
+            height: 23px;
+            display: block;
+            border-radius: 50%;
+            background: #ed145b;
+            text-align: center;
+            line-height: 23px;
+            margin: 9px 0 0 10px;
+            cursor: pointer;
+            color: #fff; }
+      #cebianlan .cebianlan1 .cebianlan1ul1 .li3 {
+        padding: 20px 0 10px;
+        height: 16px; }
+        #cebianlan .cebianlan1 .cebianlan1ul1 .li3 a em {
+          background: url(../img/ibar_sprites.png) no-repeat 0px -57px; }
+        #cebianlan .cebianlan1 .cebianlan1ul1 .li3 div {
+          height: 38px;
+          line-height: 38px;
+          width: 92px;
+          position: absolute;
+          z-index: 2;
+          left: -92px;
+          top: 0;
+          background: #444851;
+          color: #d8d8d8;
+          text-align: center;
+          display: block;
+          visibility: hidden; }
+          #cebianlan .cebianlan1 .cebianlan1ul1 .li3 div em {
+            position: absolute;
+            right: -5px;
+            top: 15px;
+            width: 5px;
+            height: 9px;
+            background-position: 0 -234px;
+            overflow: hidden; }
+      #cebianlan .cebianlan1 .cebianlan1ul1 .li4 {
+        padding-bottom: 6px; }
+        #cebianlan .cebianlan1 .cebianlan1ul1 .li4 a em {
+          background: url(../img/ibar_sprites.png) no-repeat 0px -82px; }
+        #cebianlan .cebianlan1 .cebianlan1ul1 .li4 div {
+          height: 38px;
+          line-height: 38px;
+          width: 92px;
+          position: absolute;
+          z-index: 2;
+          left: -92px;
+          top: 0;
+          background: #444851;
+          color: #d8d8d8;
+          text-align: center;
+          display: block;
+          visibility: hidden; }
+          #cebianlan .cebianlan1 .cebianlan1ul1 .li4 div em {
+            position: absolute;
+            right: -5px;
+            top: 15px;
+            width: 5px;
+            height: 9px;
+            background-position: 0 -234px;
+            overflow: hidden; }
+      #cebianlan .cebianlan1 .cebianlan1ul1 .li5 {
+        padding-bottom: 6px; }
+        #cebianlan .cebianlan1 .cebianlan1ul1 .li5 a em {
+          background: url(../img/ibar_sprites.png) no-repeat 0px -109px; }
+        #cebianlan .cebianlan1 .cebianlan1ul1 .li5 div {
+          height: 38px;
+          line-height: 38px;
+          width: 92px;
+          position: absolute;
+          z-index: 2;
+          left: -92px;
+          top: 0;
+          background: #444851;
+          color: #d8d8d8;
+          text-align: center;
+          display: block;
+          visibility: hidden; }
+          #cebianlan .cebianlan1 .cebianlan1ul1 .li5 div em {
+            position: absolute;
+            right: -5px;
+            top: 15px;
+            width: 5px;
+            height: 9px;
+            background-position: 0 -234px;
+            overflow: hidden; }
+    #cebianlan .cebianlan1 .cebianlan1ul2 {
+      position: absolute;
+      bottom: 0;
+      left: 0;
+      width: 40px;
+      background: #444851;
+      z-index: 1; }
+      #cebianlan .cebianlan1 .cebianlan1ul2 em {
+        width: 23px;
+        height: 25px;
+        top: 11px;
+        left: 9px;
+        background-position: 0 -29px; }
+      #cebianlan .cebianlan1 .cebianlan1ul2 li {
+        position: relative;
+        display: block;
+        height: 38px;
+        z-index: 1; }
+      #cebianlan .cebianlan1 .cebianlan1ul2 .li1 {
+        padding-bottom: 6px; }
+        #cebianlan .cebianlan1 .cebianlan1ul2 .li1 a em {
+          background: url(../img/ibar_sprites.png) no-repeat 0px -300px; }
+        #cebianlan .cebianlan1 .cebianlan1ul2 .li1 div {
+          height: 38px;
+          line-height: 38px;
+          width: 92px;
+          position: absolute;
+          z-index: 2;
+          left: -92px;
+          top: 0;
+          background: #444851;
+          color: #d8d8d8;
+          text-align: center;
+          display: block;
+          visibility: hidden; }
+          #cebianlan .cebianlan1 .cebianlan1ul2 .li1 div em {
+            position: absolute;
+            right: -5px;
+            top: 15px;
+            width: 5px;
+            height: 9px;
+            background-position: 0 -234px;
+            overflow: hidden; }
+      #cebianlan .cebianlan1 .cebianlan1ul2 .li2 {
+        padding-bottom: 6px; }
+        #cebianlan .cebianlan1 .cebianlan1ul2 .li2 a em {
+          background: url(../img/ibar_sprites.png) no-repeat 0px -170px; }
+        #cebianlan .cebianlan1 .cebianlan1ul2 .li2 div {
+          height: 38px;
+          line-height: 38px;
+          width: 92px;
+          position: absolute;
+          z-index: 2;
+          left: -92px;
+          top: 0;
+          background: #444851;
+          color: #d8d8d8;
+          text-align: center;
+          display: block;
+          visibility: hidden; }
+          #cebianlan .cebianlan1 .cebianlan1ul2 .li2 div em {
+            position: absolute;
+            right: -5px;
+            top: 15px;
+            width: 5px;
+            height: 9px;
+            background-position: 0 -234px;
+            overflow: hidden; }
+      #cebianlan .cebianlan1 .cebianlan1ul2 .li3 {
+        padding-bottom: 6px; }
+        #cebianlan .cebianlan1 .cebianlan1ul2 .li3 a em {
+          background: url(../img/ibar_sprites.png) no-repeat 0px -196px; }
+        #cebianlan .cebianlan1 .cebianlan1ul2 .li3 div {
+          height: 38px;
+          line-height: 38px;
+          width: 92px;
+          position: absolute;
+          z-index: 2;
+          left: -92px;
+          top: 0;
+          background: #444851;
+          color: #d8d8d8;
+          text-align: center;
+          display: block;
+          visibility: hidden; }
+          #cebianlan .cebianlan1 .cebianlan1ul2 .li3 div em {
+            position: absolute;
+            right: -5px;
+            top: 15px;
+            width: 5px;
+            height: 9px;
+            background-position: 0 -234px;
+            overflow: hidden; }
+
+#cebianlan .cebianlan1 .cebianlan1ul1 .li1:hover {
+  background: #ED145B; }
+
+#cebianlan .cebianlan1 .cebianlan1ul1 .li1:hover a {
+  background: url(../img/ibar_sprites.png) no-repeat -21px 10px; }
+
+#cebianlan .cebianlan1 .cebianlan1ul1 .li1:hover div {
+  display: block; }
+
+#cebianlan .cebianlan1 .cebianlan1ul1 .li1:hover span {
+  display: block; }
+
+#cebianlan .cebianlan1 .cebianlan1ul1 .li2:hover {
+  background: #ED145B; }
+
+#cebianlan .cebianlan1 .cebianlan1ul1 .li2:hover a em {
+  background: url(../img/ibar_sprites.png) no-repeat -33px -30px; }
+
+#cebianlan .cebianlan1 .cebianlan1ul1 .li3:hover {
+  background: #ED145B; }
+
+#cebianlan .cebianlan1 .cebianlan1ul1 .li3:hover a em {
+  background: url(../img/ibar_sprites.png) no-repeat -33px -57px; }
+
+#cebianlan .cebianlan1 .cebianlan1ul1 .li4:hover {
+  background: #ED145B; }
+
+#cebianlan .cebianlan1 .cebianlan1ul1 .li4:hover a em {
+  background: url(../img/ibar_sprites.png) no-repeat -33px -82px; }
+
+#cebianlan .cebianlan1 .cebianlan1ul1 .li5:hover {
+  background: #ED145B; }
+
+#cebianlan .cebianlan1 .cebianlan1ul1 .li5:hover a em {
+  background: url(../img/ibar_sprites.png) no-repeat -32px -109px; }
+
+#cebianlan .cebianlan1 .cebianlan1ul2 .li1:hover {
+  background: #ED145B; }
+
+#cebianlan .cebianlan1 .cebianlan1ul2 .li2:hover {
+  background: #ED145B; }
+
+#cebianlan .cebianlan1 .cebianlan1ul2 .li2:hover a em {
+  background: url(../img/ibar_sprites.png) no-repeat -33px -170px; }
+
+#cebianlan .cebianlan1 .cebianlan1ul2 .li3:hover {
+  background: #ED145B; }
+
+#cebianlan .cebianlan1 .cebianlan1ul2 .li3:hover a em {
+  background: url(../img/ibar_sprites.png) no-repeat -33px -196px; }
+
+/*# sourceMappingURL=cebianlan.css.map */
